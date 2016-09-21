@@ -1,3 +1,5 @@
+using System;
+using System.Linq;
 namespace Grouping
 {
     public class Program
@@ -5,6 +7,8 @@ namespace Grouping
         //Entry point of application
         public static void Main(string[] args)
         {
+            Console.WriteLine("-- SP-1 --");
+                
             //Invoke the linq grouping examples within the project
             GroupBy1.QuerySyntaxExample();
             GroupBy1.MethodSyntaxExample();
