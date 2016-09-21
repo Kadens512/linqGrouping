@@ -7,7 +7,7 @@ namespace Grouping
         //Entry point of application
         public static void Main(string[] args)
         {
-            Console.WriteLine("-- SP-1 --");
+            Console.WriteLine("-- SP-2 --");
                 
             //Invoke the linq grouping examples within the project
             GroupBy1.QuerySyntaxExample();
